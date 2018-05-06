@@ -61,7 +61,7 @@ $(document).ready(function() {
 <body>
 
 <div id="container">
-	<h1 style="text-align:center; color:green;">CodeIgniter Employee List!</h1>
+	<h1 style="text-align:center; color:green;">CodeIgniter Employee List!    </h1>
 	<?php if($msg = $this->session->flashdata('msg')): ?>
 	<?php echo $msg; ?>
 	<?php endif; ?>
